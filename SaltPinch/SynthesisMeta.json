@@ -1,0 +1,13 @@
+{
+  "Nickname": "",
+  "Visibility": "Visible",
+  "OneLineDescription": "Patcher used for my Salt Pinch mod, available here: <TODO>",
+  "LongDescription": "",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [
+    "SaltPinch.esp"
+  ],
+  "TargetedReleases": [
+    "SkyrimLE"
+  ]
+}
