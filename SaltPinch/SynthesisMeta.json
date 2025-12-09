@@ -1,7 +1,7 @@
 {
   "Nickname": "",
   "Visibility": "Visible",
-  "OneLineDescription": "Patcher used for my Salt Pinch mod, available here: <TODO>",
+  "OneLineDescription": "Patcher used for my Salt Pinch mod, available here: https://www.nexusmods.com/skyrim/mods/120781",
   "LongDescription": "",
   "PreferredAutoVersioning": "Default",
   "RequiredMods": [
@@ -10,4 +10,5 @@
   "TargetedReleases": [
     "SkyrimLE"
   ]
+
 }
