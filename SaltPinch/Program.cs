@@ -94,11 +94,12 @@ private static FormKey GetSaltFormKey(ILoadOrderGetter<IModListingGetter<ISkyrim
    }
    
    if (!fileFound) throw new Exception(String.Format(
-      "File \"{0}\" not found. This mod is reqired for this patch.", saltFileName
+      "File \"{0}\" not found. This mod is required for this patch.", saltFileName
    ));
    
    return saltPinchKey;
 }
 
 }
+
 }
