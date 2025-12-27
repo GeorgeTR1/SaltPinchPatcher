@@ -23,7 +23,7 @@ public static async Task<int> Main(string[] args) {
 }
 
 public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state) {
-
+   //necessary for the patch to work with LE. By default it's 1.71, which LE won't load
    state.PatchMod.ModHeader.Stats.Version = 1.70f;
    
    FormKey saltPinchKey = GetSaltFormKey(state.LoadOrder);
@@ -105,4 +105,5 @@ private static FormKey GetSaltFormKey(ILoadOrderGetter<IModListingGetter<ISkyrim
 }
 
 }
+
 
